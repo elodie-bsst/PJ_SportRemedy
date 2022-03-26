@@ -2,7 +2,6 @@ const express = require('express');
 const dotenv = require('dotenv');
 const app = express();
 const WEB_PORT = 7002
-
 dotenv.config();
 
 app.listen(WEB_PORT, () => {
