@@ -1,0 +1,60 @@
+<%- include("header.ejs"); %>
+
+<!-- Slideshow -->
+<div class="w3-container">
+    <div class="w3-display-container mySlides">
+        <img id="images" src="/static/woman_sport.jpg">
+        <div id="fptxt" class="w3-display-topleft w3-container w3-padding-32">
+            <span class="w3-white w3-padding-small w3-animate-bottom">Sport</span>
+        </div>
+    </div>
+    <div class="w3-display-container mySlides">
+        <img id="images" src="/static/medecin.jpg">
+        <div id="fptxt" class="w3-display-topright w3-container w3-padding-32">
+            <span class="w3-white w3-padding-small w3-animate-bottom">Suivi medical</span>
+        </div>
+    </div>
+    <div class="w3-display-container mySlides">
+        <img id="images" src="static/aide.jpg">
+        <div id="fptxt" class="w3-display-topleft w3-container w3-padding-32">
+            <span class="w3-white w3-padding-small w3-animate-bottom">Soutien permanent</span>
+        </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+        <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left fa-2x w3-hover-text-teal"></i></div>
+        <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right fa-2x w3-hover-text-teal"></i></div>
+        
+        <div class="w3-center">
+            <span class="w3-button demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+            <span class="w3-button demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+            <span class="w3-button demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        </div>
+    </div>
+</div>
+<script src="/static/frontpage_script.js"></script>
+<br><br><br><br>
+<div class="w3-row w3-container">
+    <div class="w3-left w3-padding-32">
+      <span id="fptitle" class="w3-bottombar w3-border-dark-grey w3-padding-16">La pratique d'une activité sportive, source de bien être</span>
+    </div>
+    <div id="paragraph" class="w3-right w3-padding-32">
+        <span id="fpparagraph" class="w3-border-dark-grey w3-padding-16">Et si on vous disait que pratiquer une activité sportive adaptée pouvez tout changer? Chaque années des millions de patients décrivent leur traitement comme épuisant. Pourtant des études ont montrées qu'aujourd'hui la pratique régulière d'une activité physique adaptée permettait de se sentir mieux tout en retrouvant le bonheur de se dépenser. Avec Sport Remedy nous vous accompagnons dans vos activités quotidiennes</span>
+    </div>
+    <div class="w3-right w3-padding-32">
+        <span id="fptitle" class="w3-bottombar w3-border-dark-grey w3-padding-16">Un suivi complet</span>
+      </div>
+    <div id="paragraph" class="w3-left w3-padding-32">
+        <span id="fpparagraph" class="w3-border-dark-grey w3-padding-16">Grâce à Sport Remedy nous vous proposons un suivi de votre forme! Vous avez la possibilité de renseigner chaque jour vos symptômes et vos humeurs. Cela vous permettra de suivre votre forme tout en étant accompagné par un professionnel qui pourra aussi faire l'état de ces données. Cette plateforme ne remplace en effet pas un réel suivi médical mais l'améliore</span>
+    </div>
+    <div class="w3-left w3-padding-32">
+        <span id="fptitle" class="w3-bottombar w3-border-dark-grey w3-padding-16">Une entraîde virtuelle comme réelle</span>
+      </div>
+    <div id="paragraph" class="w3-right w3-padding-32">
+        <span id="fpparagraph" class="w3-border-dark-grey w3-padding-16">Ne restez plus seul! Au travers d'une page nous vous répertorions un ensemble de liens vous permettant de vous renseigner et contacter nombre d'organisations. Le but étant de vous sentir accompagné et soutenu tout au long de votre rémission et même après.</span>
+    </div>
+<%- include("footer.ejs"); %>
+
+</body>
+</html>
