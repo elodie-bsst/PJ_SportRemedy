@@ -1,0 +1,203 @@
+/* Social networks icons */
+button #icon{
+  width:5vmin;
+  height:5vmin;
+  text-decoration: none;
+}
+
+img#icon2{
+  width:5vmin;
+  height:5vmin;
+}
+
+.credentials #p{
+  width:5vmin;
+  height:5vmin;
+}
+
+.credentials{
+  justify-content: center;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+/* logo frontpage */
+#logo{
+margin-left: auto;
+margin-right: auto;
+display: block;
+width: 15%;
+}
+
+.logoimage{
+background-color: #f1f1f1;
+}
+
+
+/* table background */
+table{
+  background-color: white;
+  font-size: 2vmin;
+}
+
+.margin{
+margin-top: 6vmin;
+margin-bottom: 20vmin;
+}
+
+/* button style */
+#button{
+  font-size: 3vmin;
+  width: auto;
+  float: right;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+#delbutton{
+font-size: 3vmin;
+width: auto;
+float: right;
+margin-right: 5%;
+margin-bottom: 5%;
+}
+
+/* frontpage */
+/* text on slide */
+#fptxt{
+  font-size: 3vmin;
+}
+
+#txttitle{
+  font-size: 6vmin;
+  font:bold;
+}
+.mySlides {display:none;}
+/* paragraph title */
+#fptitle{
+  font-size: 3vmin;
+  font-weight:bold;
+}
+
+/* paragraph */
+#paragraph{
+  text-indent: 5%;
+}
+
+/* paragraph text 
+#fpparagraph{
+  font-size: 3vmin;
+  font:bold;
+}
+
+/* footer title */
+#txtfoot{
+  font-size: 5vmin;
+  font:bold;
+}
+
+/* about us + slider photos */
+#images{
+  width: 100%;
+}
+
+
+/* about us information paragraph */
+#informationpg{
+font-size: 3vmin;
+}
+
+#aboutustxt{
+font-size: 3vmin;
+}
+
+/* content container */
+.w3-content{
+margin:auto;
+width: 45%;
+}
+
+/* login page form */
+.logform{
+max-width: 50%;
+margin-top: 12%;
+}
+
+/* login page */
+.logbtn{
+margin-top: 5%;
+}
+
+/*navbar*/
+
+.topnav {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  justify-content:center;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #000;
+  max-width: 90%;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 3vmin;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+
+}
+
+.topnav a.active {
+  background-color: rgb(150, 85, 158);
+  color: white;
+  font-size: 4.5vmin;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.fa-bars{
+    font-size: 4.5vmin;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.form-control {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+
