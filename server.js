@@ -1,7 +1,13 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const app = express();
+const WEB_PORT = 7002
+
 dotenv.config();
+
+app.listen(WEB_PORT, () => {
+    console.log(`Our app listening at http://localhost:${WEB_PORT}/information`);
+});
 
 const session = require("express-session");
 app.use(session({
